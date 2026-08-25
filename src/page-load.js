@@ -1,3 +1,4 @@
+import tacoSrc from "./taco.png";
 export default function loadHomeContent() {
 
 const content = document.getElementById("content");
@@ -17,7 +18,7 @@ content.appendChild(para1);
 const tacoImage = document.createElement("img");
 content.appendChild(tacoImage);
 
-tacoImage.src = "./taco.png";
+tacoImage.src = tacoSrc;
 tacoImage.alt = "A plate of tacos";
 
 tacoImage.width = 300;

@@ -22,6 +22,10 @@ plugins: [
         {
             test: /\.html$/i,
             use: ["html-loader"],
+        },
+        {
+            test: /\.(png|svg|jpg|gif)$/i,
+            type: "asset/resource",
         }
     ],
  },
