@@ -1,7 +1,10 @@
 import tacoSrc from "./taco.png";
 export default function loadHomeContent() {
 
+
 const content = document.getElementById("content");
+
+content.innerHTML = "";
 
 const header = document.createElement("h1");
 
