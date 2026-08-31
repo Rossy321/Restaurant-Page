@@ -1,4 +1,13 @@
 import tacoSrc from "./taco.png";
+
+const nav = document.querySelector("nav");
+
+const restaurantName = document.createElement("h1");
+
+restaurantName.textContent = "Juanfranco's Restaurant";
+
+nav.prepend(restaurantName);
+
 export default function loadHomeContent() {
 
 
@@ -6,11 +15,6 @@ const content = document.getElementById("content");
 
 content.innerHTML = "";
 
-const header = document.createElement("h1");
-
-header.textContent = "Juanfranco's Restaurant"
-
-content.appendChild(header);
 
 const para1 = document.createElement("p");
 
