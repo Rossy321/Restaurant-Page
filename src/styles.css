@@ -1,0 +1,9 @@
+.menuItem {
+    height: 100px;
+    width: 100px;
+}
+
+.menuItems {
+    display: flex;
+    flex-direction: row;
+}
