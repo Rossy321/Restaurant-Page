@@ -42,7 +42,7 @@ contactInfo.appendChild(email);
 
 const emailPara = document.createElement("p");
 
-emailPara.textContent = "juanfrancos@homail.co.uk";
+emailPara.textContent = "juanfrancos@hotmail.co.uk";
 
 contactInfo.appendChild(emailPara);
 
