@@ -27,6 +27,8 @@ content.appendChild(para1);
 const tacoImage = document.createElement("img");
 content.appendChild(tacoImage);
 
+tacoImage.classList.add("tacoImage");
+
 tacoImage.src = tacoSrc;
 tacoImage.alt = "A plate of tacos";
 
@@ -38,6 +40,8 @@ tacoImage.height = 300;
 
 const footer = document.createElement("footer");
 document.body.appendChild(footer);
+
+footer.textContent = "© Juanfrancos restaurant"
 
 
 

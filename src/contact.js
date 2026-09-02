@@ -29,10 +29,10 @@ contactInfo.appendChild(address);
 
 const addressPara = document.createElement("p");
 
-addressPara.textContent = "3 Greogre Street\nEdinburgh\nEH32YX";
+addressPara.textContent = "3 George Street\nEdinburgh\nEH32YX";
 addressPara.style.whiteSpace = "pre-line";
 
-address.appendChild(addressPara);
+contactInfo.appendChild(addressPara);
 
 const email = document.createElement("h2");
 
@@ -44,7 +44,7 @@ const emailPara = document.createElement("p");
 
 emailPara.textContent = "juanfrancos@homail.co.uk";
 
-email.appendChild(emailPara);
+contactInfo.appendChild(emailPara);
 
 }
 

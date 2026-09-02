@@ -10,6 +10,11 @@ body {
 #content {
     flex: 1;
     text-align: center;
+    margin-top: 30px;
+}
+
+.tacoImage {
+    margin-top: 20px;
 }
 
 
@@ -20,16 +25,24 @@ button {
     color: black;
     border-radius: 8px;
     border: none;
-    padding: 0.75rem 1.5rem; 
+    padding: 0.75rem 1.5rem;
+    
+}
+
+button:hover {
+    background-color: lightgrey;
 }
 
 .button-container {
+    display: flex;
+    align-items: center;
     margin-top: 20px;
-    gap: 15;
+    gap: 20px;
 }
 
 h1 {
     font-family: "Playfair Display", serif;
+
    
 }
 
@@ -45,13 +58,19 @@ p {
 nav {
     display: flex;
     background-color: grey;
-    margin: 0;
+    align-items: center;
+ 
 }
 
 .button-container {
 
 gap: 20px;
+padding-bottom: 10px;
 
+}
+
+menu {
+    text-align: center;
 }
 
 
@@ -59,12 +78,16 @@ gap: 20px;
 .menuItem {
     height: 100px;
     width: 100px;
+    
 }
 
 .menuItems {
     display: flex;
     flex-direction: row;
     gap: 30px;
+    justify-content: center;
+    margin-top: 30px;
+    
     
 }
 
@@ -73,6 +96,10 @@ footer {
     background-color: #1f2937;
     color: white;
     margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 nav { 

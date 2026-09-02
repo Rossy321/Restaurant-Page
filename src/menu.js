@@ -17,8 +17,6 @@ export default function menu() {
 
     menuItems.classList.add("menuItems");
 
-    menu.appendChild(menuItems);
-
     
     const chickenTaco = document.createElement("div");
     chickenTaco.classList.add("chicken-taco");
@@ -100,8 +98,7 @@ export default function menu() {
 
     menuItems.appendChild(veganTaco);
 
-
-
+    menu.appendChild(menuItems);
 
 
 }
