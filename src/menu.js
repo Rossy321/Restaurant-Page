@@ -22,12 +22,13 @@ export default function menu() {
     chickenTaco.classList.add("chicken-taco");
 
     const chickenImg = document.createElement("img");
+    chickenImg.classList.add("menu-img");
     chickenImg.src =  chickenSrc;
     chickenImg.alt = "Chicken Taco";
     chickenImg.classList.add("menuItem");
 
 
-    const chickenTacoHed = document.createElement("h3");
+    const chickenTacoHed = document.createElement("h2");
     chickenTacoHed.textContent = ("Chicken Taco");
 
     const chickenTacoPrice = document.createElement("p");
@@ -42,12 +43,13 @@ export default function menu() {
      beefTaco.classList.add("beef-taco");
 
     const beefImg = document.createElement("img");
+    beefImg.classList.add("menu-img");
     beefImg.src =  beefSrc;
     beefImg.alt = "Beef Taco";
     beefImg.classList.add("menuItem");
 
 
-    const beefTacoHed = document.createElement("h3");
+    const beefTacoHed = document.createElement("h2");
     beefTacoHed.textContent = ("Beef Taco");
 
     const beefTacoPrice = document.createElement("p");
@@ -62,12 +64,13 @@ export default function menu() {
      fishTaco.classList.add("fish-taco");
 
     const fishImg = document.createElement("img");
+    fishImg.classList.add("menu-img");
     fishImg.src =  fishSrc;
     fishImg.alt = "Fish Taco";
     fishImg.classList.add("menuItem");
 
 
-    const fishTacoHed = document.createElement("h3");
+    const fishTacoHed = document.createElement("h2");
     fishTacoHed.textContent = ("Fish Taco");
 
     const fishTacoPrice = document.createElement("p");
@@ -83,12 +86,13 @@ export default function menu() {
      veganTaco.classList.add("fish-taco");
 
     const veganImg = document.createElement("img");
+    veganImg.classList.add("menu-img");
     veganImg.src =  fishSrc;
     veganImg.alt = "Fish Taco";
     veganImg.classList.add("menuItem");
 
 
-    const veganTacoHed = document.createElement("h3");
+    const veganTacoHed = document.createElement("h2");
     veganTacoHed.textContent = ("Vegan Taco");
 
     const veganTacoPrice = document.createElement("p");

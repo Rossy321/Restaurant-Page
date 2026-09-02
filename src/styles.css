@@ -5,6 +5,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    
 }
 
 #content {
@@ -76,8 +77,9 @@ menu {
 
 
 .menuItem {
-    height: 100px;
-    width: 100px;
+    background-color: white;
+    padding: 20px;
+    
     
 }
 
@@ -87,8 +89,14 @@ menu {
     gap: 30px;
     justify-content: center;
     margin-top: 30px;
-    
-    
+       
+}
+
+.menu-img {
+    height: 200px;
+    width: 150px;
+ 
+
 }
 
 footer {
