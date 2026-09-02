@@ -5,7 +5,7 @@ const nav = document.querySelector("nav");
 
 const restaurantName = document.createElement("h1");
 
-restaurantName.textContent = "Juanfranco's Restaurant";
+restaurantName.textContent = "Juanfranco's Taqueria";
 
 nav.prepend(restaurantName);
 
@@ -41,7 +41,7 @@ tacoImage.height = 300;
 const footer = document.createElement("footer");
 document.body.appendChild(footer);
 
-footer.textContent = "© Juanfrancos restaurant"
+footer.textContent = "© Juanfrancos Taqueria"
 
 
 
